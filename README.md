@@ -1,4 +1,5 @@
 #Request OTP
+
 ``curl --location --request POST 'http://localhost:8001/otp/request' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -6,6 +7,7 @@
 }'``
 
 #Validate OTP
+
 ``curl --location --request POST 'http://localhost:8001/otp/validate' \
 --header 'Content-Type: application/json' \
 --data-raw '{
